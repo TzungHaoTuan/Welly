@@ -1,4 +1,4 @@
-export default function page() {
+export default function Page() {
   // 1. JavaScript: 字串反轉
   function reverseString(str) {
     return str.split("").reverse().join("");
