@@ -36,7 +36,9 @@ export default function page() {
     }`;
   }
   console.log(formatName("Elliott", "Tuan"));
-  //
+  // 1. 原本的寫法當 firstName 是 falthy value, lastName 前面會多一個 empty space
+  // 2. 少宣告一個變數
+  // 3. string literal and ternary operator 好閱讀
 
   return <div>page</div>;
 }
